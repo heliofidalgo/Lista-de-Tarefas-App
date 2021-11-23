@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		21F1E05D2746A33100B9C1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E05C2746A33100B9C1C7 /* AppDelegate.swift */; };
 		21F1E05F2746A33100B9C1C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E05E2746A33100B9C1C7 /* SceneDelegate.swift */; };
-		21F1E0612746A33100B9C1C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E0602746A33100B9C1C7 /* ViewController.swift */; };
 		21F1E0642746A33100B9C1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F1E0622746A33100B9C1C7 /* Main.storyboard */; };
 		21F1E0662746A33800B9C1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F1E0652746A33800B9C1C7 /* Assets.xcassets */; };
 		21F1E0692746A33800B9C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F1E0672746A33800B9C1C7 /* LaunchScreen.storyboard */; };
+		21F1E0712746AC2200B9C1C7 /* TarefasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E0702746AC2200B9C1C7 /* TarefasTableViewController.swift */; };
+		21F1E0732746AD5600B9C1C7 /* CadastroTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E0722746AD5600B9C1C7 /* CadastroTarefaViewController.swift */; };
+		21F1E0752746AF3200B9C1C7 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F1E0742746AF3200B9C1C7 /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21F1E0592746A33100B9C1C7 /* Lista de Tarefas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lista de Tarefas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F1E05C2746A33100B9C1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F1E05E2746A33100B9C1C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21F1E0602746A33100B9C1C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21F1E0632746A33100B9C1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21F1E0652746A33800B9C1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F1E0682746A33800B9C1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F1E06A2746A33800B9C1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F1E0702746AC2200B9C1C7 /* TarefasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasTableViewController.swift; sourceTree = "<group>"; };
+		21F1E0722746AD5600B9C1C7 /* CadastroTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTarefaViewController.swift; sourceTree = "<group>"; };
+		21F1E0742746AF3200B9C1C7 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				21F1E05C2746A33100B9C1C7 /* AppDelegate.swift */,
+				21F1E0702746AC2200B9C1C7 /* TarefasTableViewController.swift */,
+				21F1E0722746AD5600B9C1C7 /* CadastroTarefaViewController.swift */,
+				21F1E0742746AF3200B9C1C7 /* TarefaUserDefaults.swift */,
 				21F1E05E2746A33100B9C1C7 /* SceneDelegate.swift */,
-				21F1E0602746A33100B9C1C7 /* ViewController.swift */,
 				21F1E0622746A33100B9C1C7 /* Main.storyboard */,
 				21F1E0652746A33800B9C1C7 /* Assets.xcassets */,
 				21F1E0672746A33800B9C1C7 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F1E0612746A33100B9C1C7 /* ViewController.swift in Sources */,
+				21F1E0732746AD5600B9C1C7 /* CadastroTarefaViewController.swift in Sources */,
 				21F1E05D2746A33100B9C1C7 /* AppDelegate.swift in Sources */,
+				21F1E0752746AF3200B9C1C7 /* TarefaUserDefaults.swift in Sources */,
+				21F1E0712746AC2200B9C1C7 /* TarefasTableViewController.swift in Sources */,
 				21F1E05F2746A33100B9C1C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
